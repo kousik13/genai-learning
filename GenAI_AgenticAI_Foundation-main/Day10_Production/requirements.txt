@@ -1,0 +1,44 @@
+# Day 10 — GenAI & Agentic AI Foundation
+# requirements.txt — All dependencies for the 10-day curriculum
+
+# ─── Core LangChain ──────────────────────────────────────────────────────────
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-groq>=0.2.0
+
+# ─── LLM provider ────────────────────────────────────────────────────────────
+groq>=0.9.0
+
+# ─── Embeddings ──────────────────────────────────────────────────────────────
+sentence-transformers>=3.0.0
+
+# ─── Vector stores ───────────────────────────────────────────────────────────
+faiss-cpu>=1.7.4
+
+# ─── Document loading & splitting ────────────────────────────────────────────
+pypdf>=4.0.0
+unstructured>=0.14.0
+
+# ─── Similarity utilities ────────────────────────────────────────────────────
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# ─── API server (Day 9 & 10) ─────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+
+# ─── Environment variables ───────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ─── HTTP requests (for tools) ───────────────────────────────────────────────
+requests>=2.32.0
+
+# ─── Optional: OpenAI (if switching provider) ────────────────────────────────
+# openai>=1.30.0
+# langchain-openai>=0.1.0
+
+# ─── Dev / testing ───────────────────────────────────────────────────────────
+# pytest>=8.0.0
+# httpx>=0.27.0    # for FastAPI test client
