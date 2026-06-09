@@ -1,0 +1,9 @@
+Python is a high-level programming language.
+
+LangChain is a framework used to build LLM applications.
+
+Embeddings convert text into vectors.
+
+RAG stands for Retrieval Augmented Generation.
+
+AI Agents use reasoning and tools to solve tasks.
